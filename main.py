@@ -173,7 +173,7 @@ def buka_ls():
 
     bg = canvas.create_image(350.0,275.0,image=bg_4)
 
-    hasil = canvas.create_text(430.0,428.0,anchor="nw",text="",fill="#000000",font=("RobotoRoman Regular", 13 * -1, 'bold'))
+    hasil = canvas.create_text(390.0,428.0,anchor="nw",text="",fill="#000000",font=("RobotoRoman Regular", 13 * -1, 'bold'))
 
     ls_entry_1_image = canvas.create_image(349.5,329.5,image=ls_entry_image_1)
     ls_entry_1 = Entry(bd=0,bg="#FFFFFF",fg="#000716",highlightthickness=0)
